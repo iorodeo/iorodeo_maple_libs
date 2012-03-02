@@ -1,7 +1,7 @@
 iorodeo_maple_libs
 ---------------------
 
-A collection of libraries for use with the LeafLabs Maple.
+A collection of libraries for use with the Leaflabs Maple.
 
 Summary:
 
