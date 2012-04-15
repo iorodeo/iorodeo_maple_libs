@@ -77,8 +77,8 @@ void writeUint16ToFlashPage() {
 }
 
 void writeUint8ToFlashPage() {
-    uint8 data0;
-    uint8 data1;
+    uint8 data0=0;
+    uint8 data1=0;
     for (uint16 address=0; address<flashMemory.maxAddress; address++) {
         flashMemory.writeData(flashPageNum,address,data0,data1);
         if (data0 < 255) {
